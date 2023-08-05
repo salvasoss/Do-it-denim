@@ -52,6 +52,7 @@ header {
   right: 3vw;
   width: 55px;
   height: 55px;
+  z-index: 999999999999;
 }
 .whatsapp-sticky img {
   object-fit: cover;
