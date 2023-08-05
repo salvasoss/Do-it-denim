@@ -25,22 +25,25 @@ img {
   transition: all 1s;
   display: flex;
   justify-content: center;
+  z-index: 100;
 }
 .navbar-collapse ul li a {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.nav-img div {
+.eslogan div {
   text-align: center;
-  margin-right: 4vw;
-  margin-left: 4vw;
-  margin-bottom: 3vh;
+  margin: 0 4vw 3vh 4vw;
 }
-.nav-img div h1 {
+.eslogan div h1 {
   font-size: 4vh;
 }
-.nav-img div h2 {
+.eslogan div h2 {
+  font-size: 2vh;
+}
+
+.descripcion h2 {
   font-size: 2vh;
 }
 
@@ -182,24 +185,25 @@ footer {
   background-color: #359ee4;
 }
 footer div {
-  background-color: #359ee4;
-}
-footer div h3 {
-  text-align: center;
-  font-size: 4vh;
-}
-footer div div {
-  padding-bottom: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-footer div div img {
-  width: 50px;
-  height: 50px;
+footer div .footer-logo img {
+  height: 20vh;
+}
+footer div .footer-logo-redes {
+  flex-direction: column;
+  margin: 1vh 12vw;
+}
+footer div .footer-logo-redes div img {
+  height: 5vh;
+}
+footer .footer-copyright {
+  justify-content: center;
 }
 footer .footer-copyright p {
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map */
