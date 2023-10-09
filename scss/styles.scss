@@ -90,6 +90,7 @@ header {
     }
 }
 .eslogan {
+    
     div {
         text-align: center;
         margin: 0 4vw 3vh 4vw;
@@ -105,6 +106,9 @@ header {
     div {
         h2 {
             font-size: 2vh;
+            padding: 2vh;
+            padding-bottom: 0;
+            
         }
     }
 }
@@ -169,19 +173,35 @@ header {
         }
 
         .product-description {
-            a {
-                text-decoration: none;
-
+            height: 1vh;
                 h3 {
                     font-weight: 700;
                     color: #000;
+                    text-align: center;
                 }
-            }
+            
         }
 
         .precio {
+            height: 1vh;
             h4 {
                 font-weight: 400;
+                text-align: center;
+            }
+        }
+
+        .product-button_comprar{
+            background-color: rgb(255, 255, 14);
+            border-radius: 5px;
+            a{
+                text-decoration: none;
+                h4{
+                    font-size: 3vh;
+                    font-weight: 800;
+                    text-align: center;
+                    padding: 4px;
+                    color: #00a0bd;
+                }
             }
         }
     }
